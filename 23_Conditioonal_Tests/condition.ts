@@ -1,0 +1,25 @@
+let car = 'Bugatti';
+let model = 2014;
+let color = 'Black';
+let engine = 2000;
+let horse_power = 313;
+console.log("Is car == 'Bugatti'? I predict True.");
+console.log(car == 'Bugatti');
+console.log("Is model == 2014? I predict True.");
+console.log(model >= 2014);
+console.log("Is color == 'Black'? I predict True.");
+console.log(color == 'Black');
+console.log("Is engine == 2000? I predict True.");
+console.log(engine == 2000);
+console.log("Is horse_power == 313? I predict Ture.");
+console.log(horse_power <= 313);
+console.log("Is car a Bugatti or a Ferrari? I predict True.");
+console.log(car==='Bugatti' || car==="Ferrari");
+console.log("Is model is after 2014 or before? I predict True.");
+console.log(model===2014 || model===2018);
+console.log("Is color is BLack or White? I predict True.");
+console.log(color==='Black' || color==='White');
+console.log("Is engine is 2000cc or 2300cc? I predict True.")
+console.log(engine===2000 || engine===2300);
+console.log("Is horse_Power is 313km/h or 326km/h? I predict True.");
+console.log(horse_power===313 || horse_power===326);
